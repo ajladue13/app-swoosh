@@ -83,9 +83,9 @@
 		1496C1641FA968F800A7BD5D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1496C16A1FA96ABA00A7BD5D /* WelcomeVC.swift */,
 				1496C1661FA969DD00A7BD5D /* LeagueVC.swift */,
 				1496C1681FA969EC00A7BD5D /* SkillVC.swift */,
-				1496C16A1FA96ABA00A7BD5D /* WelcomeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
