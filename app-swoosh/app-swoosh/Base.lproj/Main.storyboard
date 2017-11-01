@@ -16,10 +16,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="116" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="p1q-eE-wYR">
             <objects>
-                <viewController id="ubt-h6-0I4" sceneMemberID="viewController">
+                <viewController id="ubt-h6-0I4" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NE3-AH-yFd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,7 +184,7 @@
                                 </constraints>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <segue destination="ORT-tk-uRi" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSegue:" id="GJv-lA-hjX"/>
+                                    <segue destination="ORT-tk-uRi" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSegue:" id="w8u-9r-8tj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="863" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="cHx-Cc-9yn">
             <objects>
-                <viewController id="mNC-70-Gct" sceneMemberID="viewController">
+                <viewController id="mNC-70-Gct" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zvu-MW-xKY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
